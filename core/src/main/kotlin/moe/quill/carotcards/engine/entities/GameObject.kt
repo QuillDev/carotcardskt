@@ -1,9 +1,8 @@
-package moe.quill.carotcards.entities
+package moe.quill.carotcards.engine.entities
 
-import com.badlogic.gdx.math.Vector3
 import java.util.UUID
 
-abstract class GameObject(val position: Vector3) {
+abstract class GameObject() {
 
     val uuid = UUID.randomUUID()
 
@@ -11,7 +10,9 @@ abstract class GameObject(val position: Vector3) {
         register()
     }
 
-    abstract fun update()
+    open fun update() {
+
+    }
 
     private fun register() {
         EntitySystem.add(this)

@@ -1,6 +1,6 @@
-package moe.quill.carotcards.entities
+package moe.quill.carotcards.engine.entities
 
-import moe.quill.carotcards.renderer.sprites.SpriteRenderer
+import moe.quill.carotcards.engine.renderer.sprites.SpriteRenderer
 
 object EntitySystem {
 

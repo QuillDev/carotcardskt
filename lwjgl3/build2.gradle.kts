@@ -1,3 +1,5 @@
+
+
 buildscript {
     repositories {
         mavenCentral()
@@ -57,9 +59,9 @@ subprojects {
     ext.appName = 'carotcardskt'
     repositories {
         mavenCentral()
-        maven { url 'https://s01.oss.sonatype.org' }
         mavenLocal()
         gradlePluginPortal()
+        maven { url 'https://s01.oss.sonatype.org' }
         maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
         maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/' }
         maven { url 'https://jitpack.io' }

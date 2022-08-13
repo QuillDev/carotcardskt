@@ -1,8 +1,17 @@
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 eclipse.project.name = appName + '-core'
 
+ext {
+    imguiVersion = "ca150b4905132dfb66e2a12cdc279e087e56d0a5"
+}
 dependencies {
-	api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
-	api "com.badlogicgames.gdx:gdx:$gdxVersion"
-	api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+    api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
+    api "com.badlogicgames.gdx:gdx:$gdxVersion"
+    api "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
+    //ImGui
+    api "com.github.kotlin-graphics:imgui:$imguiVersion"
+
+    //required for retrieving a handle within core module
+    api "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
 }

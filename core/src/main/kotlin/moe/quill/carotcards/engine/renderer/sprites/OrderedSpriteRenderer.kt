@@ -1,7 +1,7 @@
-package moe.quill.carotcards.renderer.sprites
+package moe.quill.carotcards.engine.renderer.sprites
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
-import moe.quill.carotcards.renderer.CSprite
+import moe.quill.carotcards.engine.renderer.CSprite
 
 class OrderedSpriteRenderer : SpriteRenderer {
 

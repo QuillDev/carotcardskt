@@ -1,9 +1,9 @@
-package moe.quill.carotcards.renderer.sprites
+package moe.quill.carotcards.engine.renderer.sprites
 
 import com.badlogic.gdx.graphics.Texture
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import com.badlogic.gdx.math.Vector3
-import moe.quill.carotcards.renderer.CSprite
+import moe.quill.carotcards.engine.renderer.CSprite
 
 class UnorderedSpriteRenderer : SpriteRenderer {
     override val batch = SpriteBatch()

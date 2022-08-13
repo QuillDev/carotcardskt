@@ -1,4 +1,4 @@
-package moe.quill.carotcards.textures
+package moe.quill.carotcards.engine.textures
 
 import com.badlogic.gdx.Gdx
 import com.badlogic.gdx.graphics.Texture
